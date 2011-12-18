@@ -7,6 +7,7 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 gem 'will_paginate', '3.0.2'
+gem 'devise', '1.5.2'
 
 gem 'json'
 
