@@ -25,3 +25,7 @@ div#contents {
   padding: 5px;
   border: solid 1px #ccc;
 }
+
+div#contents h2 {  
+  margin: 5px 0;  
+}
