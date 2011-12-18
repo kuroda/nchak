@@ -3,7 +3,7 @@ class CreateTasks < ActiveRecord::Migration
     create_table :tasks do |t|
       t.string :name
       t.date :due_date
-      t.boolean :done
+      t.boolean :done, :null => false, :default => false
 
       t.timestamps
     end
