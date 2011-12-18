@@ -1,4 +1,5 @@
 <tr>
   <td><%= task.name %></td>
   <td><%= task.due_date %></td>
+  <td><%= link_to '完了', [ :finish, task ], :method => :put %></td>
 </tr>
